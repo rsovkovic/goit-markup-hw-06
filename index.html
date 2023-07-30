@@ -17,6 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Effective Solutions for Your Business</title>
   </head>
   <body class="body">
@@ -56,6 +57,104 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="button-mob-menu" data-menu-open>
+          <svg class="icon-mob-btn" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu  is-hidden" data-menu>
+        <div >
+        <button type="button" class="close-mob-menu" data-menu-close>
+          <svg class="icon-button" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+       
+          <ul class="mob-menu-list list">
+            <li class="nav-mob-menu">
+              <a href="./index.html" class="mob-menu-link link">Studio</a>
+            </li>
+  
+            <li class="nav-mob-menu">
+              <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
+            </li>
+            <li class="nav-mob-menu">
+              <a href="" class="mob-menu-link link">Contacts</a>
+            </li>
+          </ul>
+       </div>
+       <div>
+          <!-- <address> -->
+            <ul class="address-mob-menu list">
+              <li class="mob-menu-item">
+                  <li class="mob-menu-item">
+                <a href="tel:+110001111111" class="link-mob-menu link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+                <a href="mailto:info@devstudio.com" class="link-mob-menu link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            
+            </ul>
+          </address>
+          <ul class="social-mob-menu list">
+            <li class="mob-menu-social-icon">
+              <a
+                href=""
+                class="mob-menu-networks link"
+                aria-label="instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-mob-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-icon">
+              <a
+                href=""
+                class="mob-menu-networks link"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-mob-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-icon">
+              <a
+                href=""
+                class="mob-menu-networks link"
+                aria-label="facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-mob-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-icon">
+              <a
+                href=""
+                class="mob-menu-networks link"
+                aria-label="linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-mob-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+       </div>
       </div>
     </header>
 
@@ -129,6 +228,7 @@
           <ul class="section-three-list list">
             <li class="section-three-item">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="application for a computer"
                 width="360"
@@ -137,6 +237,7 @@
             </li>
             <li class="section-three-item">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="phone application"
                 width="360"
@@ -145,6 +246,7 @@
             </li>
             <li class="section-three-item">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="computer with the phone"
                 width="360"
@@ -155,11 +257,12 @@
         </div>
       </section>
       <section class="section-four">
-        <div class="container">
+        <div class="container container-narrow">
           <h2 class="title-two">Our Team</h2>
           <ul class="section-four-list list">
             <li class="section-four-item">
               <img
+                srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
                 class="section-four-img"
                 src="./images/img4.jpg"
                 alt="Mark Guerrero"
@@ -226,6 +329,7 @@
             </li>
             <li class="section-four-item">
               <img
+                srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
                 class="section-four-img"
                 src="./images/img5.jpg"
                 alt="Tom Ford"
@@ -292,6 +396,7 @@
             </li>
             <li class="section-four-item">
               <img
+                srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
                 class="section-four-img"
                 src="./images/img6.jpg"
                 alt="Camila Garcia"
@@ -358,6 +463,7 @@
             </li>
             <li class="section-four-item">
               <img
+                srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
                 class="section-four-img"
                 src="./images/img7.jpg"
                 alt="Daniel Wilson"
@@ -436,7 +542,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-one"></use>
                 </svg>
               </a>
@@ -448,7 +554,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-two"></use>
                 </svg>
               </a>
@@ -460,7 +566,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-three"></use>
                 </svg>
               </a>
@@ -472,7 +578,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-four"></use>
                 </svg>
               </a>
@@ -484,7 +590,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-five"></use>
                 </svg>
               </a>
@@ -496,7 +602,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="client-icon" width="104" height="56">
+                <svg class="client-icon" width="110" height="56">
                   <use href="./images/icons.svg#icon-logo-six"></use>
                 </svg>
               </a>
@@ -678,5 +784,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
