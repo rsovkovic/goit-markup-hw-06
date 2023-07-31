@@ -172,6 +172,28 @@
   .client-icon {
     width: 104px;
   }
+  /**----------------------------Section-Portfolio-page-------------*/
+  .portfoliopage {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .button-list {
+    margin-bottom: 64px;
+    justify-content: center;
+    gap: 24px;
+  }
+  .portfoliopage-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .portfoliopage-items {
+    width: calc((100% - 24px) / 2);
+  }
+  .portfolio-text-container > .text-title {
+  }
   /**--------------------------------------Footer--------------*/
   .title-social-media {
     text-align: left;
@@ -300,6 +322,26 @@
   .section-five {
     padding: 120px 0;
   }
+  /**----------------------------Section-Portfolio-page-------------*/
+  .portfoliopage {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .button-list {
+    margin-bottom: 72px;
+    justify-content: center;
+    gap: 24px;
+  }
+  .portfoliopage-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .portfoliopage-items {
+    width: calc((100% - 48px) / 3);
+  }
+
   /**----------------------------------Footer---------------------- */
   .footer {
     padding: 100px 0;
