@@ -30,9 +30,6 @@
   .link-mob-menu-tel {
     font-size: 36px;
   }
-  /* .section-three {
-    display: none;
-  } */
 }
 
 /**-------------------------------Width-768-----------------------  */
@@ -146,27 +143,6 @@
     }
   }
 
-  /* @media screen and (max-width: 768px) {
-    .section-one {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office-tab.jpg);
-    }
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .section-one {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/people-office-tab-2x.jpg);
-      }
-    }
-  } */
-
   .title-mainpage {
     font-size: 56px;
     max-width: 496px;
@@ -180,11 +156,6 @@
     gap: 24px;
     row-gap: 72px;
   }
-
-  /**---------------------------Section-three----------*/
-  /* .section-three {
-  display: none;
-} */
 
   /**------------Section-four------------  */
   .section-four .text-title {
@@ -200,13 +171,7 @@
   .section-four-item {
     width: calc((100% - 24px) / 2);
   }
-  /* .section-four > .container {
-    max-width: 552px;
-  } */
-  /* .container-narrow {
-    padding-left: 108px;
-    padding-right: 108px;
-  } */
+
   .section-four .text-page {
     font-weight: 400;
   }
@@ -219,7 +184,6 @@
   }
   .section-five-items {
     width: calc((100% - 48px) / 3);
-    /* width: 168px; */
   }
   .client-icon {
     width: 104px;
@@ -233,6 +197,9 @@
     margin-bottom: 64px;
     justify-content: center;
     gap: 24px;
+  }
+  .portfolio-button {
+    padding: 12px 24px;
   }
   .portfoliopage-list {
     display: flex;
@@ -249,9 +216,7 @@
   .title-social-media {
     text-align: left;
   }
-  /* .footer > .container {
-    max-width: 552px;
-  } */
+
   .footer_form_text {
     text-align: left;
   }
@@ -259,14 +224,11 @@
     justify-content: flex-start;
     column-gap: 24px;
     max-width: 582px;
-    /* padding-left: 108px; */
   }
   .container_footer_input {
     gap: 24px;
   }
-  /* .container-logo .logo {
-    text-align: left;
-  } */
+
   .container-logo {
     align-items: flex-start;
   }
@@ -407,7 +369,6 @@
   /**----------------------------------Footer---------------------- */
   .footer {
     padding: 100px 0;
-    /* min-width: 1440px; */
   }
   .footer-container {
     display: flex;
@@ -415,8 +376,6 @@
     column-gap: initial;
     padding-left: 15px; /*15px*/
     justify-content: center;
-    /* justify-content: none; */
-    /* padding-left: 156px; */
   }
   .container-logo {
     margin-right: 120px;

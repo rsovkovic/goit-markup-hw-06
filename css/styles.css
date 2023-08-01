@@ -117,16 +117,14 @@ img {
   margin-bottom: 32px;
   width: 24px;
   height: 24px;
-  /* position: absolute;
-  right: 24px;
-  top: 24px; */
+
   cursor: pointer;
   border-radius: 50%;
   background-color: transparent;
   fill: var(--cornflower);
   stroke: var(--first-text-color);
   stroke-width: 1px;
-  /* opacity: 0.10000000149011612; */
+
   border: none;
   display: flex;
   align-items: center;
@@ -165,9 +163,6 @@ img {
   color: var(--second-accent-color);
 }
 
-/* .nav-mob-menu:not(:last-child) {
-  margin-bottom: 40px;
-} */
 .address-mob-menu {
   display: flex;
   flex-direction: column;
@@ -180,14 +175,7 @@ img {
   color: var(--second-accent-color);
 }
 
-
 .link-mob-menu-tel {
-  /* color: var(--second-text-color);
-
-  font-size: 20px;
-
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   font-size: 24px;
 
@@ -213,8 +201,7 @@ img {
 .social-mob-menu {
   display: flex;
   align-items: center;
-  /* justify-content: center;
-  gap: 56px; */
+
   gap: 36px;
 }
 .mob-menu-social-icon {
@@ -265,7 +252,6 @@ img {
 }
 /**---------------------------------Section-one-main-page--------------*/
 .section-one {
-  /* padding: 188px 0; */
   padding: 112px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -293,13 +279,13 @@ img {
 .title-mainpage {
   color: var(--primary-white-color);
   text-align: center;
-  /* font-size: 56px; */
+
   font-size: 36px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  /* max-width: 496px; */
+
   max-width: 320px;
   margin-bottom: 72px;
 }
@@ -330,22 +316,16 @@ img {
 
 /**------------------Section-two-Flexbox--------*/
 .section-two-list {
-  /* display: flex;
-  gap: 24px; */
   display: flex;
-  /* flex-direction: column; */
+
   flex-wrap: wrap;
   gap: 72px;
 }
 .section-two {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.section-two-item {
-  /* width: calc((100% - 72px) / 4); */
-}
+
 .section-two-block {
   width: 264px;
   height: 112px;
@@ -360,37 +340,19 @@ img {
 
 /**---------------------------Section-three-Flexbox----------*/
 .section-three {
-  /* padding-bottom: 120px; */
   display: none;
 }
-/* .section-three-list {
-  display: flex;
-  gap: 24px;
-}
-.title-two {
-  margin-bottom: 72px;
-}
-.section-three-item {
-  width: calc((100% - 48px) / 3);
-} */
+
 /**---------------Section-four-Flexbox----------------------*/
 .section-four {
-  /* padding: 120px 0; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
 
-/* .section-four > .container {
-  max-width: 294px;
-} */
-/* .container-narrow {
-  padding: 96px 82px;
-} */
 .section-four-list {
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
-  /* gap: 24px; */
+
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 24px;
@@ -399,7 +361,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
   background: var(--primary-white-color);
-  /* width: calc((100% - 72px) / 4); */
+
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -455,7 +417,6 @@ img {
 
 /**-------------------------------Section-five----------------------- */
 .section-five {
-  /* padding: 120px 0; */
   padding: 96px 0;
 }
 
@@ -483,10 +444,6 @@ img {
   justify-content: center;
   column-gap: 16px;
   row-gap: 72px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px; */
 }
 .client-icon {
   fill: currentColor;
@@ -519,14 +476,6 @@ img {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
-.section-four > .text-title {
-  /* color: var(--first-text-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px; */
-}
 
 .text-page {
   color: var(--second-text-color);
@@ -538,8 +487,6 @@ img {
 
 /**----------------------------Section-Portfolio-page-------------*/
 .portfoliopage {
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -554,9 +501,7 @@ img {
 }
 .button-list {
   display: flex;
-  /* margin-bottom: 72px;
-  justify-content: center;
-  gap: 24px; */
+
   flex-wrap: wrap;
   margin-bottom: 48px;
   gap: 16px 24px;
@@ -574,7 +519,7 @@ img {
   list-style: none;
   cursor: pointer;
   border-radius: 4px;
-  padding: 12px 24px;
+  padding: 8px 16px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -591,10 +536,6 @@ img {
 }
 
 .portfoliopage-list {
-  /* display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px; */
   display: flex;
 
   flex-direction: column;
@@ -609,9 +550,6 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfoliopage-items {
-  /* width: calc((100% - 48px) / 3); */
-}
 .portfolio-text-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -646,31 +584,25 @@ img {
 }
 /**--------------------------------------Footer--------------*/
 .footer {
-  /* padding: 100px 0; */
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: var(--primary-accent-color);
-  /* min-width: 1440px; */
+
   margin: 0 auto;
 }
 
 .container-logo {
-  /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-/* .container-logo .logo {
-  text-align: center;
-} */
+
 .footer-container {
-  /* display: flex;
-  align-items: baseline; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
+
   row-gap: 72px;
 }
 .text-footer {
@@ -704,9 +636,6 @@ img {
 }
 .footer .social-networks:is(:hover, :focus) {
   background-color: #31d0aa;
-}
-.footer_form_container {
-  /* margin-left: 80px; */
 }
 
 .footer_form_text {
@@ -772,8 +701,6 @@ img {
   border: none;
 }
 .container_footer_input {
-  /* display: flex;
-  gap: 24px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
